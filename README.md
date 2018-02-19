@@ -1,0 +1,2 @@
+# RGB-LED-AVR-C
+The program is just going to blink a RGB LED different colors. Each color change will be maintained for half a second before going to the next color. This is achieved by utilizing timer 0 and 2. Timer 0 I use Pins D5 and D4 because they are PWM’s, which contain OCR0B and OCR0A. For timer 2 I use Pin B3 and utilizue OCR2A. Setting these PWM pins a specific value will decide the RGB LED color.
